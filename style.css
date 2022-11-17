@@ -19,14 +19,21 @@ body{
   font-size: 18;
   background-color:#C4DEFD ;
   color: #ffffff;
+  line-height: 1.5;
 }
 
 .theme-button{
  display:inline-block;
  background: #4F9CF9;
   border-radius: 8px;
-  padding: 16px 24px !important; 
-  margin-left: 22px;     
+  padding: 16px 24px !important;   
+  text-decoration: none;
+  color: #ffffff; 
+  transition: 0.3s;  
+}
+.theme-button:hover{
+  background:#043873;
+  color:#ffffff;
 }
 .theme-button-two{
      display:inline-block;
@@ -34,7 +41,13 @@ body{
       border-radius: 8px;
       padding: 16px 24px !important;
       color:#043873 !important; 
-      margin-left: 22px;     
+           
+    }
+    .header-area .theme-button{
+      margin-left: 22px;
+    }
+    .header-area .theme-button-two{
+      margin-left: 22px;
     }
 .theme-button img {
      margin-left: 10px;
@@ -53,6 +66,10 @@ padding:16px 0;
    font-weight:500;
    padding: 16px 24px !important;  
 }
+.header-area .navbar-toggler{
+  border: none;
+  box-shadow:none;
+}
 @media (max-width:991px){
 .theme-button{
  width:100%;
@@ -67,7 +84,51 @@ padding:16px 0;
  margin-top:15px;
 }  
 .header-area .nav-link{
-
-   padding:16px 0;  
+ padding:16px 0;  
 } 
+.header-area .nav-link{
+  position: relative; 
+ } 
+ .header-area .nav-link::after{
+  position: absolute; 
+  right:12px;
+  top:50%;
+  transform: translateY(-50%);
+ } 
+}
+.header-area .theme-button{
+  margin-left: 22px;
+}
+.header-area .theme-button-two{
+  margin-left: 22px;
+}
+/*
+Hero CSS
+*/
+.hero-area {
+  padding: 140px;
+  background-image: url(img/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.hero-text h3{
+font-weight: 700;
+font-size: 40px;
+}
+.hero-area .theme-button {
+  margin-top:30px;
+}
+@media (max-width:991px){
+  .hero-area{
+    padding: 80px 0;
+  }
+  .hero-text{
+    text-align: center;
+  }
+  .hero-text h3{
+    font-size: 36px;
+  }
+  .hero-area .theme-button {
+    margin-bottom:50px;
+  }
 }
