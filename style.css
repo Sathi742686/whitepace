@@ -208,3 +208,16 @@ color:#ffffff;
     margin-bottom: 50px;
   }
 }
+/*
+Customise area
+*/
+.customise-area{
+  background-color: #ffffff;
+  padding: 140px 0;
+}
+@media (max-width:991px){
+  .customise-area{
+    padding: 80px;
+  } 
+  
+}
