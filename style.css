@@ -40,9 +40,17 @@ body{
      background: #FFE492;
       border-radius: 8px;
       padding: 16px 24px !important;
-      color:#043873 !important; 
-           
+      color:#043873 !important;        
     }
+    .theme-button-three{
+      display:inline-block;
+      background: #ffffff;
+      border: 1px solid #FFE492;
+       border-radius: 8px;
+       padding: 16px 24px !important;
+       color:#043873 !important; 
+       text-decoration: none;       
+     }
     .header-area .theme-button{
       margin-left: 22px;
     }
@@ -114,7 +122,7 @@ padding:16px 0;
  text-align:center ;     
  margin-left: 0px; 
  margin-top:15px;
-}  
+} 
 .header-area .nav-link{
  padding:16px 0;  
 } 
@@ -209,7 +217,7 @@ color:#ffffff;
   }
 }
 /*
-Customise area
+Customise area css
 */
 .customise-area{
   background-color: #ffffff;
@@ -218,6 +226,55 @@ Customise area
 @media (max-width:991px){
   .customise-area{
     padding: 80px;
+  }  
+}
+/*
+pricing area css
+*/
+.pricing-area{
+  padding: 140px 0;
+  background-color: #ffffff;
+}
+.singel-pricing{
+  color: #212529;
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  padding: 40px 44px;
+}
+.singel-pricing h4 {
+font-size: 24px;
+font-weight: 500;
+}
+.singel-pricing h2 {
+font-size: 36px;
+font-weight: 700;
+margin-top: 20px;
+}
+.singel-pricing ul{
+  margin: 0;
+  padding: 0;
+  margin: 25px 0;
+}
+.singel-pricing ul li{
+list-style: none;
+margin-bottom: 28px;
+}
+.singel-pricing ul li :last-child{
+  margin: 0;
+}
+.special-pricing{
+  padding: 80px 44px;
+  background-color: #043873;
+  color: #ffffff;
+}
+.special-pricing h2{
+  color:#FFE492 ;
+}
+@media (max-width:991px){
+  .pricing-area{
+    padding: 80px 0;
+  }
+  .singel-pricing{
+    margin-bottom: 30px;
   } 
-  
 }
