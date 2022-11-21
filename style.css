@@ -282,7 +282,7 @@ margin-bottom: 28px;
 your work area
 */
 .your-work-area{
-  padding: 140px;
+  padding: 140px 0;
   background-color: #043873;
 }
 .your-work-area .theme-text h3{
@@ -290,4 +290,8 @@ your work area
 }
 .your-work-area .theme-text p{
   color: #ffffff;
+}
+.your-task-area{
+  padding: 140px 0;
+  background-color: #ffffff;
 }
