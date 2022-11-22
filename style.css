@@ -291,7 +291,44 @@ your work area
 .your-work-area .theme-text p{
   color: #ffffff;
 }
+@media (max-width:991px){
+  .your-work-area{
+    padding: 80px 0;
+  }
+   
+}
 .your-task-area{
   padding: 140px 0;
   background-color: #ffffff;
+}
+@media (max-width:991px) {
+  .your-task-area{
+    padding: 80px 0;
+  }
+}
+/*
+Sponsors Area CSS
+*/
+.sponsors-area {
+  padding: 140px 0;
+  background-color:#fff;
+}
+.sponsors-area .theme-text{
+  margin-bottom: 80px;
+}
+.single-sponsors img {
+  height: 55px;
+  width: auto;
+ }
+ 
+@media (max-width:991px){
+  .sponsors-area{
+    padding: 80px 0px;
+  }
+  .single-sponsors{
+    margin-bottom:50px ;
+   }
+   .single-sponsors:last-chils{
+    margin-bottom: 0;
+   }
 }
